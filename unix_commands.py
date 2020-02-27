@@ -5,5 +5,5 @@
 import subprocess
 
 subprocess.call(["uname", "-r"])
-#This code gives the same output as the command "uname -r", it should print the version of the kernel.
+#This code gives the output of the command "uname -r", it should print the version of the kernel.
 #Este codigo executa o comando "uname -r", este apresenta a versao do kernel em uso.
