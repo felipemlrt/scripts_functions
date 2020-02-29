@@ -12,7 +12,7 @@ def Random_gen( min, max, seed):
  number = ((134775813 * seed + 2147483587) % 134456) #this is the random generation calculation the constants where chosen from common examples
  return (number / 134456) * (max - min) + min #this is the calculation that adjust the generated number into the given range
 #return (((134775813 * seed + 2147483587) % 134456) / 134456) * (max - min) + min #this is a example of how to make the function in a single line
-#return round((number / 134456) * (max - min) + min, 0) #using round to ger an integer
+#return round((number / 134456) * (max - min) + min, 0) #using round to get an integer
 
 #example
 import time
@@ -25,7 +25,7 @@ for i in range(0, 10):
  number = Random_gen(min, max, number)
 
 #####################################################################################
-#this is a linear congruential generator (LCG), the basic equation is
+#this fuction implements a linear congruential generator (LCG), the basic equation is
 #xn+1 = ( a * Xn + c ) mod m
 #number = ( multiplier * seed + increment ) % modulus
 
@@ -56,6 +56,6 @@ for i in range(0, 10):
  numero = Random_gerador(menor, maior, numero)
 
 #####################################################################################
-#este e um gerador congruencial linear (inglês: Linear Congruential Generator) de sigla LCG, a equacao basica e:
+#esta função implementa um gerador congruencial linear (inglês: Linear Congruential Generator) de sigla LCG, a equacao basica e:
 #xn+1 = ( a * Xn + c ) mod m
 #numero = ( multiplicador * seed + incremento ) % modulo
