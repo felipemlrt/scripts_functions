@@ -11,8 +11,12 @@
 def Random_gen( min, max, seed):
  number = ((134775813 * seed + 2147483587) % 134456) #this is the random generation calculation the constants where chosen from common examples
  return (number / 134456) * (max - min) + min #this is the calculation that adjust the generated number into the given range
-#return (((134775813 * seed + 2147483587) % 134456) / 134456) * (max - min) + min #this is a example of how to make the function in a single line
 #return round((number / 134456) * (max - min) + min, 0) #using round to get an integer
+
+#single line lambda pseudo random number generator
+l1 = lambda min, max, seed: (((134775813 * seed + 2147483587) % 134456) / 134456) * (max - min) + min
+#and with round
+l2 = lambda min, max, seed: round((((((134775813 * seed + 2147483587) % 134456) / 134456) * (max - min) + min) / 134456) * (max - min) + min, 0)
 
 #example
 import time
@@ -44,6 +48,11 @@ def Random_gerador( menor, maior, seed):
  return (numero / 134456) * (maior - menor) + menor #este e o calculo que ajusta o numero gerado para o intervalo definido
 #return (((134775813 * seed + 2147483587) % 134456) / 134456) * (max - min) + min #este e um exemplo de como fazer toda a funcao ter uma unica linha
 #return round((number / 134456) * (max - min) + min, 0) #este e um exemplo do uso do round() para remover a parte decimal
+
+#função lambda para geração de numeros pseudo aleatorios em uma unica linha
+l1 = lambda menor, maior, seed: (((134775813 * seed + 2147483587) % 134456) / 134456) * (maior - menor) + menor
+#e usando round
+l2 = lambda menor, maior, seed: round((((((134775813 * seed + 2147483587) % 134456) / 134456) * (maior - menor) + menor) / 134456) * (maior - menor) + menor, 0)
 
 #exemplo
 import time
