@@ -1,0 +1,29 @@
+english:
+To run a python file in a Linux environment the main options are:
+
+1)
+create the file, example hello.py
+use the command:
+ python3 hello.py
+
+2)
+create the file, example hello.py
+place on the first line of the file:
+ #!/usr/bin/env python3
+use the command (only required once):
+ chmod +x hello.py
+run the command (whenever you want the code to run):
+ ./hello.py
+
+3)
+reate the file, example hello.py
+place on the first line of the file:
+ #!/usr/bin/python3
+use the command (only required once):
+ chmod +x hello.py
+run the command (whenever you want the code to run):
+ ./hello.py
+
+tips:
+in all of the above, intead of "python3" any other installed version can be used
+to run the code on the background freeinf the console add an & to the end, example: python3 hello.py &
