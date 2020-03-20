@@ -27,3 +27,4 @@ run the command (whenever you want the code to run):
 tips:
 in all of the above, intead of "python3" any other installed version can be used
 to run the code on the background freeinf the console add an & to the end, example: python3 hello.py &
+to remove from foreground use fg #, where # is the number of the job, example: fg 1. to find the number use the jobs command.
