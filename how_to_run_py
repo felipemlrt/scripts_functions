@@ -16,7 +16,7 @@ run the command (whenever you want the code to run):
  ./hello.py
 
 3)
-reate the file, example hello.py
+create the file, example hello.py
 place on the first line of the file:
  #!/usr/bin/python3
 use the command (only required once):
@@ -28,3 +28,35 @@ tips:
 in all of the above, intead of "python3" any other installed version can be used
 to run the code on the background freeinf the console add an & to the end, example: python3 hello.py &
 to remove from foreground use fg #, where # is the number of the job, example: fg 1. to find the number use the jobs command.
+
+#-----------------------------------------------------------------------------------------------------------------------------
+portuges:
+Para executar um arquivo python em um ambiente Linux as principais formas são:
+
+1)
+criar o arquivo, exemplo: Ola.py
+Use o comando:
+ python3 Ola.py
+
+2)
+criar o arquivo, exemplo: Ola.py
+colocar na primeira linha:
+ #!/usr/bin/env python3
+use o comando(somente necessario a primeira vez):
+ chmod +x Ola.py
+Use o comando:
+ ./Ola.py
+
+3)
+criar o arquivo, exemplo: Ola.py
+colocar na primeira linha:
+ #!/usr/bin/python3
+use o comando(somente necessario a primeira vez):
+ chmod +x Ola.py
+Use o comando:
+ ./Ola.py
+
+Dicas:
+Em todos os comandos acima ao invs de pyhton3 qualquer outra versao que esteja instalada pode ser usada, exemplo: python3.5
+para executar o codigo em segundo plano use um & ao fim, exemplo: python3 Ola.py &
+para devolver o codigo ao console use fg #, onde # é o numero da tarefa, exemplo: fg 1. use jobs para verificar o número.
