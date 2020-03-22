@@ -57,6 +57,6 @@ Use o comando:
  ./Ola.py
 
 Dicas:
-Em todos os comandos acima ao invs de pyhton3 qualquer outra versao que esteja instalada pode ser usada, exemplo: python3.5
+Em todos os comandos acima ao invés de pyhton3 qualquer outra versao que esteja instalada pode ser usada, exemplo: python3.5
 para executar o codigo em segundo plano use um & ao fim, exemplo: python3 Ola.py &
 para devolver o codigo ao console use fg #, onde # é o numero da tarefa, exemplo: fg 1. use jobs para verificar o número.
