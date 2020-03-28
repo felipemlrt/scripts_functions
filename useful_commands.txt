@@ -1,3 +1,7 @@
 #Command to change the encoding on files, sometimes necessary when changing .py files from OS to OS
 #Comando para alterar a codificação de arquivos, as vezes necessário para arquivos .py quando passando de um OS para outro
 iconv -f ISO-8859-1 -t UTF-8//TRANSLIT <file> -o <file>
+
+#Command to display only last lines of the file, great for reading long logs
+#Comando que apresenta as ultimas linhas de um arquivo, util para a leitura de logs grandes
+less +G <file>
