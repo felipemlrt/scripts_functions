@@ -9,3 +9,7 @@ less +G <file>
 #Command to check running (+) or down (-) services in Debian
 #Comando para verificar serviços em execução (+), e fora de execução (-) em Debian
 service --status-all
+
+#Command to power off / turn off the machine, notice that unlike shutdowm it requires no arguments nor there is a delay
+#Comando para desligar a maquina, ao contrario do shutdown nao precisa de argumentos nem há um atraso
+poweroff
