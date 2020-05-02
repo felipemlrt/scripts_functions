@@ -24,3 +24,6 @@ jobs
 
 #command to bring from background to foreground
 fg %<job#>
+
+#Command to keep task on background even after exiting terminal
+disown -h %<job#>
