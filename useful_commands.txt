@@ -4,7 +4,8 @@ iconv -f ISO-8859-1 -t UTF-8//TRANSLIT <file> -o <file>
 
 #Command to display only last lines of the file, great for reading long logs
 #Comando que apresenta as ultimas linhas de um arquivo, util para a leitura de logs grandes
-less +G <file>
+1) tail <file>
+2) less +G <file>
 
 #Command to check running (+) or down (-) services in Debian
 #Comando para verificar serviços em execução (+), e fora de execução (-) em Debian
