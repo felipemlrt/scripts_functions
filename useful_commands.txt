@@ -14,3 +14,13 @@ service --status-all
 #Command to power off / turn off the machine, notice that unlike shutdowm it requires no arguments nor there is a delay
 #Comando para desligar a maquina, ao contrario do shutdown nao precisa de argumentos nem há um atraso
 poweroff
+
+#Command to run script in background
+#Comando para executar scripts em segundo plano
+./script &
+
+#Command to check what is running on background
+jobs
+
+#command to bring from background to foreground
+fg %<job#>
