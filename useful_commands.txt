@@ -20,6 +20,7 @@ poweroff
 ./script &
 
 #Command to check what is running on background
+#Comando para verificar quais processos estão em segundo plano
 jobs
 
 #command to bring from background to foreground
