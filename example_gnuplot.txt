@@ -1,0 +1,10 @@
+#run with: gnuplot plot_script.sc, where <plot_script.sc> is the name of the file
+#SETUP OF PLOT
+set terminal png size 1280,800 #output type and size
+set output 'test.png' #output file, if no path given will be created on current folder
+
+#CONFIGURATUION OF PLOT
+set title 'Gnuplot Test Plot'#title of the whole plot                                                      
+
+#PLOT
+plot sin(x)# plot function, accepts various modifiers, this is the most basic one 
