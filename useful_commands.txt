@@ -32,3 +32,8 @@ disown -h %<job#>
 #Command to kill several processes at once based on part of their name
 pkill -f <pattern> 
 #<pattern> can be part of the name, path, etc that all the desired processes share, be carefull about other processes sharing this pattern
+
+#Command to manipulate large sets of data easily
+#Input file being a .txt with number in columns separated by spaces, output will be a file with first column like inpunt and second will be first * second
+awk '{ print $1, $1 * $2 }' input.txt > output.txt
+
