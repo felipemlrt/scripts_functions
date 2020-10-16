@@ -5,3 +5,5 @@ end_time = t.time() + 60
 while t.time() < end_time:
     print ("not yet done")
 print ("done")
+#Be carefull, the time counted by the system in this manner is not precise and should not be trsted for critical time keeping
+#
