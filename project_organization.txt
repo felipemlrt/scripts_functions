@@ -1,0 +1,3 @@
+On GNU/Linux systems:
+/opt for large system wide projects
+/usr/local for general projects
