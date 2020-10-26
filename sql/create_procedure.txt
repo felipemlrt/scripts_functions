@@ -1,0 +1,11 @@
+#how to create a procedure from a file, loading it with a command from the GNU/Linux terminal.
+#command: mysql -u db_user -pdb_user_pass --delimiter="//" db_name < file_name.sql
+#after this command is run, run the next to return it to the usual delimiter
+#mysql -u db_user -pdb_user_pass --delimiter=";"
+#next is the example of the contents of file_name.sql
+
+CREATE PROCEDURE procedure_name ()#if there is a need for input or output it goes into the (), ex. (OUT sum INT) #output named sum of type INT
+ BEGIN
+  SELECT ...#procedure code goes here
+ END;
+//
