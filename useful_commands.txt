@@ -37,3 +37,5 @@ pkill -f <pattern>
 #Input file being a .txt with number in columns separated by spaces, output will be a file with first column like inpunt and second will be first * second
 awk '{ print $1, $1 * $2 }' input.txt > output.txt
 
+#Command to easily join/append two files in GNU/Linux
+cat file_in >> file out
