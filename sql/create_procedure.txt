@@ -1,7 +1,8 @@
 #how to create a procedure from a file, loading it with a command from the GNU/Linux terminal.
 #como criar uma procedure a partie de um arquivo, carregando esta a partir de um comando do terminal GNU/Linux.
 #command: mysql -u db_user -pdb_user_pass --delimiter="//" db_name < file_name.sql
-#after this command is run, run the next to return it to the usual delimiter
+#after this command is run, run the next to return the usual delimiter
+#apos este comando ser executado a procedure foi criada, o seguinte deve ser executado para retornar o delimitador ao padrão
 #mysql -u db_user -pdb_user_pass --delimiter=";"
 #next is the example of the contents of file_name.sql
 
