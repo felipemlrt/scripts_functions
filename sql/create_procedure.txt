@@ -11,6 +11,6 @@ CREATE PROCEDURE procedure_name ()
 #if there is a need for input or output it goes into the (), ex. (OUT sum INT) #output named sum of type INT
 #caso haja a necessidade para uma entrada ou saida estas devem ser especificadas na (), ex. (OUT soma INT) #saida soma do tipo INT
  BEGIN
-  SELECT ...#procedure code goes here
+  SELECT ...#procedure code goes here #codigo da procedure aqui
  END;
 //
