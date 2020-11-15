@@ -5,5 +5,5 @@ end_time = t.time() + 60
 while t.time() < end_time:
     print ("not yet done")
 print ("done")
-#Be carefull, the time counted by the system in this manner is not precise and should not be trsted for critical time keeping
-#
+#Be carefull, the time counted by the system in this manner is not precise and should not be trsted for critical time keeping.
+#Cuidado a contagem de tempo desta forma não é precisa e não deve ser usada para situações onde a temporização é crítica.
