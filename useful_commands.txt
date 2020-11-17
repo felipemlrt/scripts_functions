@@ -24,6 +24,7 @@ poweroff
 jobs
 
 #command to bring from background to foreground
+#comando para trazer do segundo plano para o primeiro.
 fg %<job#>
 
 #Command to keep task on background even after exiting terminal
