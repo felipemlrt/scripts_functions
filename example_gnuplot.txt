@@ -1,4 +1,4 @@
-#run with: gnuplot plot_script.sc, where <plot_script.sc> is the name of the file
+# commando to run on terminal: gnuplot plot_script.sc , where <plot_script.sc> is the name of the file containing the code
 #SETUP OF PLOT
 set terminal png size 1280,800 #output type and size
 set output 'test.png' #output file, if no path given will be created on current folder
