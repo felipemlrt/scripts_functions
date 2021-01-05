@@ -1,4 +1,5 @@
 import mysql.connector
+#simple interface for sql connector
 
 class mysql_helper:
 
