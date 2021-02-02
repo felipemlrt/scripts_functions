@@ -1,7 +1,7 @@
 import mysql.connector
 #simple interface for sql connector
 
-class mysql_helper:
+class mysql_connector_interface:
 
     # connect function, to be used every time the database will be acessed
     # função de conexão a database, deve ser usada sempre que a database será acessada
