@@ -34,18 +34,18 @@ portuges:
 Para executar um arquivo python em um ambiente Linux as principais formas são:
 
 1)
-criar o arquivo, exemplo: Ola.py
+criar o arquivo, por exemplo: oi.py
 Use o comando:
- python3 Ola.py
+ python3 oi.py
 
 2)
 criar o arquivo, exemplo: Ola.py
 colocar na primeira linha:
  #!/usr/bin/env python3
 use o comando(somente necessario a primeira vez):
- chmod +x Ola.py
+ chmod +x oi.py
 Use o comando:
- ./Ola.py
+ ./oi.py
 
 3)
 criar o arquivo, exemplo: Ola.py
@@ -54,7 +54,7 @@ colocar na primeira linha:
 use o comando(somente necessario a primeira vez):
  chmod +x Ola.py
 Use o comando:
- ./Ola.py
+ ./oi.py
 
 Dicas:
 Em todos os comandos acima ao invés de pyhton3 qualquer outra versao que esteja instalada pode ser usada, exemplo: python3.5
