@@ -52,7 +52,7 @@ criar o arquivo, exemplo: Ola.py
 colocar na primeira linha:
  #!/usr/bin/python3
 use o comando(somente necessario a primeira vez):
- chmod +x Ola.py
+ chmod +x oi.py
 Use o comando:
  ./oi.py
 
