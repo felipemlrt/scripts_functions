@@ -1,6 +1,12 @@
 english:
 To run a python file in a Linux environment the main options are:
 
+The file hello.py can be created simply by making a generic txt file with a single line in it:
+
+print("Hello")
+
+Then saving it with the name hello.py.
+
 1)
 create the file, example hello.py
 use the command:
@@ -32,6 +38,12 @@ to remove from foreground use fg #, where # is the number of the job, example: f
 #-----------------------------------------------------------------------------------------------------------------------------
 portuges:
 Para executar um arquivo python em um ambiente Linux as principais formas são:
+
+The file hello.py can be created simply by making a generic txt file with a single line in it:
+
+print("Hello")
+
+Then saving it with the name hello.py.
 
 1)
 criar o arquivo, por exemplo: oi.py
