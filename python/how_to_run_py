@@ -39,7 +39,7 @@ to remove from foreground use fg #, where # is the number of the job, example: f
 portuges:
 Para executar um arquivo python em um ambiente Linux as principais formas são:
 
-The file hello.py can be created simply by making a generic txt file with a single line in it:
+O arquivo oi.py pode ser criado de forma simples basta um txt generico com uma unica linha:
 
 print("Hello")
 
