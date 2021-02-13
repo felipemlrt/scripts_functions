@@ -41,7 +41,7 @@ Para executar um arquivo python em um ambiente Linux as principais formas são:
 
 O arquivo oi.py pode ser criado de forma simples basta um txt generico com uma unica linha:
 
-print("Hello")
+print("Oi!")
 
 Then saving it with the name hello.py.
 
