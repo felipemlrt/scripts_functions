@@ -43,7 +43,7 @@ O arquivo oi.py pode ser criado de forma simples basta um txt generico com uma u
 
 print("Oi!")
 
-Then saving it with the name hello.py.
+E a seguir salvando este como oi.py.
 
 1)
 criar o arquivo, por exemplo: oi.py
