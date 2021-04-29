@@ -1,0 +1,1 @@
+set nu #add line numbers in the file, these will not be part of the actual file and are only to help quickly finding a specific line
