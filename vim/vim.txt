@@ -1,1 +1,8 @@
-set nu #add line numbers in the file, these will not be part of the actual file and are only to help quickly finding a specific line
+as you open the editor type :<commands> to use the commands
+to insert text press INSERT pressing it again will change to REPLACE, to get out press esc
+
+:wq = save and exit
+:q = exit
+:!q = exit discarding changes
+
+:set nu #add line numbers in the file, these will not be part of the actual file and are only to help quickly finding a specific line
