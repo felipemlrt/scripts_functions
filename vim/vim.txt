@@ -6,3 +6,5 @@ to insert text press INSERT pressing it again will change to REPLACE, to get out
 :!q = exit discarding changes
 
 :set nu #add line numbers in the file, these will not be part of the actual file and are only to help quickly finding a specific line
+
+:colorscheme desert #set the colors of the code for easier reading, there are many more schemes desert is an example
