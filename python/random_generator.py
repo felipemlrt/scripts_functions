@@ -10,7 +10,7 @@
 
 def Random_gen( min, max, seed):
  number = ((134775813 * seed + 2147483587) % 134456) #this is the random generation calculation the constants where chosen from common examples
- return (number / 134456) * (max - min) + min #this is the calculation that adjust the generated number into the given range
+ return (number / 134456) * ((max - min) + min) #this is the calculation that adjust the generated number into the given range
 #return round((number / 134456) * (max - min) + min, 0) #using round to get an integer
 
 #single line lambda pseudo random number generator
