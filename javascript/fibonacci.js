@@ -1,4 +1,4 @@
-//fibonacci
+// example of javascript code thtat generates fibonacci to the n.
 //1 1 2 3 5 8 13 21 34
 function fibonacci(limite_de_repeticoes) {
    var anterior_1 = 1, anterior_2 = 1;
