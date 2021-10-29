@@ -1,2 +1,3 @@
+#Exemplos do configuracoes para o crontab
 #Some examples of crontab configurations
 0 0 * * * echo IT WORKS! > /home/teste.txt # will, once per day at 00:00, create a .txt file named teste if it doe not exists, and put "IT WORKS!" on the first line.
