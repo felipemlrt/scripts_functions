@@ -1,4 +1,6 @@
 #Exemplos do configuracoes para o crontab, estes podem ser copiados para o crontab, abra estando logado como root com o comando "crontab -e"
 #Some examples of crontab configurations, these may be copied to crontab, open it logged as root with "crontab -e"
-0 0 * * * echo IT WORKS! > /home/test.txt # will, once per day at 00:00, create a .txt file named test if it doe not exists, and put "IT WORKS!" on the first line.
+
+#once per day at 00:00, create a .txt file named test if it doe not exists, and put "IT WORKS!" on the first line.
+0 0 * * * echo IT WORKS! > /home/test.txt
 0 0 * * * echo FUNCIONA! > /home/teste.txt # uma vez ao dia, as 00:00, cria um arquivo .txt de nome teste, caso este nao exista, e grava na primeira linha "FUNCIONA!".
