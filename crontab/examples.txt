@@ -10,3 +10,8 @@
 #uma vez ao dia, as 02:00, cria um arquivo .txt de nome teste, caso este nao exista, e grava na primeira linha "FUNCIONA!".
 0 2 * * * echo IT WORKS! > /home/test.txt
 0 2 * * * echo FUNCIONA! > /home/teste.txt 
+
+#once every hour at minute 00, create a .txt file named test if it doe not exists, and put "IT WORKS!" on the first line.
+#uma vez por hora, as 00, cria um arquivo .txt de nome teste, caso este nao exista, e grava na primeira linha "FUNCIONA!".
+0 * * * * echo IT WORKS! > /home/test.txt
+0 * * * * echo FUNCIONA! > /home/teste.txt 
